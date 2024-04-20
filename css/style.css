@@ -1,0 +1,32 @@
+body {background-color: rgb(231, 200, 221); padding: 15px 35px; font-family: arial; height: 500px;} 
+p {margin-bottom: 0;}
+.pic1 {border-radius: 5px; width: 100%; margin-left: 25px;}
+.music-details {display: flex; align-items: center; justify-content: center;}
+.content1 {font-size: 65px; width: 500px;}
+.content2 {font-size: 20px; margin-bottom: 10px;}
+p {color: rgb(102, 30, 79);}
+.buy-button {background-color: rgb(186, 63, 180); color: white; border-radius: 4px;
+     border: none; padding: 5px 18px;}
+    .explore-button {background-color: rgb(202, 148, 185); color: rgb(102, 30, 79); 
+        border: 1px solid rgb(186, 63, 175); border-radius: 4px; padding: 5px 18px;}
+header i {color: rgb(102, 30, 79);}
+header {display: flex; align-items: center; justify-content: space-between; margin-bottom: 15px; margin-left: 5px;}
+.middle-section {display: flex; column-gap: 10px; font-size: small; align-items: center;}
+.home {border-bottom-style: solid; border-bottom-width: 1px;}
+.icons {display: flex;}
+.right-icon {margin-left: 10px;}
+
+@media (max-width: 600px) {.content1 {font-size: 24px; width: 180px;}
+}
+
+
+
+
+@media (max-width: 600px) {.content2 {font-size: 13px; width: 300px;}
+}
+@media (max-width: 600px) {.pic1 {width: 50vh; margin-left: 15px;}
+}
+@media (max-width: 600px) {.middle-section {column-gap: 10px;}
+}
+@media (max-width: 600px) {.icons {display: flex; column-gap: 5px;}
+}
